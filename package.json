@@ -1,14 +1,14 @@
 {
-  "name": "FieldStudy",
+  "name": "fieldstudy",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive record/*.spec.js"
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "react": "^16.0.0-alpha.6",
+    "react": "^15.5.3",
     "react-apollo": "^1.0.1",
     "react-native": "0.43.2",
     "react-redux": "^5.0.4",
@@ -28,6 +28,7 @@
     "eslint-plugin-react": "6.9.0",
     "jest": "19.0.2",
     "mocha": "^3.2.0",
+    "react-native-mock": "^0.3.1",
     "react-test-renderer": "16.0.0-alpha.6"
   },
   "jest": {

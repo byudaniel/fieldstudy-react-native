@@ -1332,6 +1332,10 @@ csurf@~1.8.3:
     csrf "~3.0.0"
     http-errors "~1.3.1"
 
+cubic-bezier@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/cubic-bezier/-/cubic-bezier-0.1.2.tgz#d4970942002e45372e0aa92db657e39eaf6824d7"
+
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
@@ -1881,7 +1885,7 @@ fbjs-scripts@^0.7.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.1, fbjs@^0.8.9, fbjs@~0.8.9:
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.9, fbjs@~0.8.9:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
@@ -2923,6 +2927,10 @@ jsx-ast-utils@^1.0.0, jsx-ast-utils@^1.3.4:
   dependencies:
     object-assign "^4.1.0"
 
+keymirror@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/keymirror/-/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
+
 kind-of@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.1.0.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
@@ -3595,7 +3603,7 @@ pegjs@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/pegjs/-/pegjs-0.9.0.tgz#f6aefa2e3ce56169208e52179dfe41f89141a369"
 
-performance-now@^0.2.0:
+performance-now@^0.2.0, performance-now@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
@@ -3674,7 +3682,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.0.0, prop-types@~15.5.0:
+prop-types@^15.0.0, prop-types@^15.5.2, prop-types@~15.5.0:
   version "15.5.6"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.6.tgz#797a915b1714b645ebb7c5d6cc690346205bd2aa"
   dependencies:
@@ -3700,6 +3708,12 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
+raf@^3.2.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.3.0.tgz#93845eeffc773f8129039f677f80a36044eee2c3"
+  dependencies:
+    performance-now "~0.2.0"
+
 random-bytes@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
@@ -3722,6 +3736,41 @@ raw-body@~2.1.2:
     bytes "2.4.0"
     iconv-lite "0.4.13"
     unpipe "1.0.0"
+
+react-addons-create-fragment@^15.4.0:
+  version "15.5.3"
+  resolved "https://registry.yarnpkg.com/react-addons-create-fragment/-/react-addons-create-fragment-15.5.3.tgz#d0025675a9e98b2591240382c73b491251066109"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
+react-addons-perf@^15.4.0:
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/react-addons-perf/-/react-addons-perf-15.4.2.tgz#110bdcf5c459c4f77cb85ed634bcd3397536383b"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
+react-addons-pure-render-mixin@^15.4.0:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.5.2.tgz#ebb846aeb2fd771336c232822923108f87d5bff2"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
+react-addons-test-utils@^15.4.0:
+  version "15.5.1"
+  resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-15.5.1.tgz#e0d258cda2a122ad0dff69f838260d0c3958f5f7"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
+react-addons-update@^15.4.0:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/react-addons-update/-/react-addons-update-15.5.2.tgz#0ada50494387b17238999ee9662f9f3fc38f935d"
+  dependencies:
+    fbjs "^0.8.9"
+    object-assign "^4.1.0"
 
 react-apollo@^1.0.1:
   version "1.0.1"
@@ -3755,7 +3804,7 @@ react-devtools-core@^2.0.8:
     cross-env "^3.1.4"
     ws "^2.0.3"
 
-"react-dom@0.14.x || 15.* || ^15.0.0":
+"react-dom@0.14.x || 15.* || ^15.0.0", react-dom@^15.4.0:
   version "15.5.3"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.5.3.tgz#2ee127ce942df55da53111ae303316e68072b5c5"
   dependencies:
@@ -3763,6 +3812,23 @@ react-devtools-core@^2.0.8:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "~15.5.0"
+
+react-native-mock@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-mock/-/react-native-mock-0.3.1.tgz#13d22433c5351a8a7fb8aedd7862b614d087851c"
+  dependencies:
+    cubic-bezier "^0.1.2"
+    invariant "^2.2.1"
+    keymirror "^0.1.1"
+    raf "^3.2.0"
+    react-addons-create-fragment "^15.4.0"
+    react-addons-perf "^15.4.0"
+    react-addons-pure-render-mixin "^15.4.0"
+    react-addons-test-utils "^15.4.0"
+    react-addons-update "^15.4.0"
+    react-dom "^15.4.0"
+    react-timer-mixin "^0.13.3"
+    warning "^2.1.0"
 
 react-native@0.43.2:
   version "0.43.2"
@@ -3891,7 +3957,7 @@ react-test-renderer@16.0.0-alpha.6:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
 
-react-timer-mixin@^0.13.2:
+react-timer-mixin@^0.13.2, react-timer-mixin@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
 
@@ -3902,13 +3968,14 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@^16.0.0-alpha.6:
-  version "16.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0-alpha.8.tgz#b45e78c2c85589603757fe21955e805876cfbd3f"
+react@^15.5.3:
+  version "15.5.3"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.5.3.tgz#84055382c025dec4e3b902bb61a8697cc79c1258"
   dependencies:
     fbjs "^0.8.9"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+    prop-types "^15.5.2"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -4684,6 +4751,12 @@ walker@~1.0.5:
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
+
+warning@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-2.1.0.tgz#21220d9c63afc77a8c92111e011af705ce0c6901"
+  dependencies:
+    loose-envify "^1.0.0"
 
 warning@^3.0.0:
   version "3.0.0"
