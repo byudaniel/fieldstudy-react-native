@@ -10,6 +10,11 @@ export default function Editor() {
       id: 1,
       label: 'Test',
       type: 'text'
+    },
+    {
+      id: 2,
+      label: 'Test2',
+      type: 'range'
     }
   ];
 

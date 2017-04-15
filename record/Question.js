@@ -1,10 +1,11 @@
 
 import React from 'react';
 import { View } from 'react-native';
-import { TextBox } from './controls';
+import { Slider, TextBox } from './controls';
 
 const questionControlMap = {
-  text: TextBox
+  text: TextBox,
+  range: Slider,
 };
 
 export default function Question(props) {

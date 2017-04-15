@@ -16,4 +16,10 @@ describe('<Question />', () => {
     const wrapper = shallow(<Question schema={schema} />);
     expect(wrapper.find('TextBox')).length(1);
   });
+
+  it('should render slider for range question type', () => {
+    const schema = { type: 'range' };
+    const wrapper = shallow(<Question schema={schema} />);
+    expect(wrapper.find('Slider')).length(1);
+  });
 });
